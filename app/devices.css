@@ -1,0 +1,33 @@
+/* Container */
+@media (max-width: 1310px) {
+  .container {
+    padding: 20px 200px;
+  }
+}
+@media (max-width: 1109px) {
+  .container {
+    padding: 20px 100px;
+  }
+}
+@media (max-width: 920px) {
+  .container {
+    padding: 20px 50px;
+  }
+}
+
+/* ! Layout Change [-> Responsive <-]  */
+@media (max-width: 810px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  .info {
+    text-align: center;
+  }
+  .violet_rounded {
+    width: 50%;
+  }
+}

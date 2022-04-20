@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" /> -->
+  <link rel="stylesheet" href="./app/normalize.css">
+  <link rel="stylesheet" href="./app/style.css">
+  <link rel="stylesheet" href="./app/devices.css">
+  <title>Chat app CSS illustration</title>
+
+</head>
+
+<body>
+  <main class="app">
+    <div class="violet_rounded"></div>
+    <div class="gray_rounded"></div>
+
+    <div class="container">
+
+      <div class="phone">
+
+        <div class="phone_head">
+
+          <div class="head_img">
+
+            <span class="iconify icon" data-icon="uil:angle-left"></span>
+            <img src="./images/avatar.jpg" alt="Profile" class="head_avatar">
+          </div>
+          <div class="head_data">
+            <div class="data">
+              <span class="username">Samuel Green</span>
+              <br />
+              <span class="statue"> Available to Walk</span>
+            </div>
+            <div class="dots">
+              <span class="dot">.</span>
+              <span class="dot">.</span>
+              <span class="dot">.</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="chat_container">
+
+          <div class="messages_container_left">
+            <div class="msg my_message_text">That sounds great. I’d be happy with that.</div>
+            <div class="msg my_message_text">Could you send over some pictures of your dog, please?</div>
+          </div>
+
+          <div class="messages_container_right">
+            <div class="msg other_message_img">
+              <img src="./images/dog-image-1.jpg" alt="dog-1" class="dog">
+              <img src="./images/dog-image-2.jpg" alt="dog-2" class="dog">
+              <img src="./images/dog-image-3.jpg" alt="dog-3" class="dog">
+            </div>
+            <div class="msg other_message_text">Here are a few pictures. She’s a happy girl!</div>
+            <div class="msg other_message_text fit_content">Can you make it?</div>
+          </div>
+
+          <div class="messages_container_left">
+            <div class="msg my_message_text">She looks so happy! The time we discussed works. How long shall I take her
+              out
+              for?</div>
+
+            <div class="msg my_offer">
+              <div class="offer_desc">
+                <div class="circle"></div>
+                <div class="text">30 minute walk</div>
+              </div>
+              <div class="offer_price">$29</div>
+            </div>
+
+            <div class="msg my_offer">
+              <div class="offer_desc">
+                <div class="circle"></div>
+                <div class="text">1 hour walk</div>
+              </div>
+              <div class="offer_price">$49</div>
+            </div>
+          </div>
+
+
+
+
+
+
+        </div>
+
+        <div class="input_container">
+          <div class="input">Type a message…<span class="iconify btn" data-icon="uil:angle-right"></span></div>
+        </div>
+
+      </div>
+
+      <div class="info">
+        <h1 class="title">Simple booking</h1>
+        <p class="desc"> Stay in touch with our dog walkers through the chat interface. This makes it easy to
+          discuss arrangements and make bookings. Once the walk has been completed you can rate
+          your walker and book again all through the chat.
+        </p>
+      </div>
+    </div>
+
+  </main>
+  <script src="./app/phone.js"></script>
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</body>
+
+</html>
